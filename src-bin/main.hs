@@ -1,3 +1,4 @@
-module Main (main) where
+import qualified Reflex.TodoMVC
 
-import Reflex.TodoMVC
+main :: IO ()
+main = Reflex.TodoMVC.main
